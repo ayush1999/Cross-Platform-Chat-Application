@@ -29,3 +29,12 @@ npm start
 
 ```
 
+## Now to Build this Application For Your Operating System
+
+```
+npm install -g electron-packager
+
+cd Cross-Platform-Chat-Application
+
+npm run build
+```
