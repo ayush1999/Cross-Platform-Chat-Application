@@ -1,0 +1,30 @@
+{
+  "name": "ChatAPP",
+  "version": "1.0.0",
+  "description": "Cross Platform Chat App ",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "build": "electron-packager . electron1",
+    "server": "node server.js",
+    "start": "electron ."
+  },
+  "author": "KNRT",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "electron": "^1.4.2",
+    "eslint": "^3.7.0",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0"
+  },
+  "dependencies": {
+    "electron-packager": "^10.1.0",
+    "express": "4.14.0",
+    "marked": "^0.3.6",
+    "socket.io": "1.4.8"
+  }
+}
